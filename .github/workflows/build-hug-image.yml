@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-             ghcr.io/${{ toLower(github.repository_owner) }}/laolarou9527:latest
+             ghcr.io/hellomusician/laolarou9527:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
